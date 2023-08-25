@@ -15,64 +15,58 @@
             padding: 0;
             font-family: Arial, sans-serif;
         }
-        
+
+        /* Additional styles for header and other elements */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
+
         .header-content {
             text-align: center;
-            padding: 50px 0;
+            padding: 100px 0;
         }
-        
+
         h1 {
-            margin: 0;
-            padding-left: 15px;
-            font-size: 28px;
-            line-height: 1.5;
+            margin-bottom: 20px;
+            font-size: 36px;
             color: white;
         }
-        
-        .typewrite {
-            display: inline-block;
-            margin-top: 10px;
-            color: #ffdb7f;
-        }
-        
+
         h2 {
             font-size: 24px;
-            margin-top: 20px;
             color: white;
+            margin: 10px 0;
         }
-        
+
+        .typewrite {
+            /* Add your typewriter styles here */
+        }
+
         button {
             background-color: #ffdb7f;
-            color: #333;
+            color: black; /* Add appropriate color */
             border: none;
             padding: 10px 20px;
             font-size: 18px;
-            border-radius: 4px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
         }
-        
-        button:hover {
-            background-color: #ffcc6f;
-        }
-        
-        @media screen and (max-width: 768px) {
-            h1 {
-                font-size: 24px;
+
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 50px 0;
             }
-            
+
+            h1 {
+                font-size: 28px;
+            }
+
             h2 {
                 font-size: 20px;
             }
-            
+
             button {
-                font-size: 16px;
                 margin-left: 0;
             }
         }
